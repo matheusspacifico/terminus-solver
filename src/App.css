@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  width: 90%;
+  max-width: 800px;
+}
+
+h1, h2 {
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.full-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.variable-selection {
+  margin: 10px 0;
+}
+
+.image-selection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.image-option {
+  cursor: pointer;
+}
+
+.image-option input[type="radio"] {
+  display: none;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.image.selected {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5);
+  border: 2px solid #90caf9;
+}
+
+.solve-button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #121212;
+  background-color: #90caf9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.solve-button:hover {
+  background-color: #64b5f6;
+}
+
+.solution-display {
+  margin-top: 20px;
+  padding: 10px;
+  color: #66bb6a;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #66bb6a;
+  border-radius: 8px;
+  background-color: #1b5e20;
+}
