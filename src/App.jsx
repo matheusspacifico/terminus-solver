@@ -107,7 +107,7 @@ function App() {
                   type="radio"
                   name="Z"
                   value={image.id}
-                  checked={X === image.id}
+                  checked={Z === image.id}
                   onChange={() => handleZ(image.id)}
                 />
                 <img 
@@ -120,7 +120,7 @@ function App() {
         </div>
 
         <button className="solve-button" onClick={handleSubmit}>Solve</button>
-        {solution &&<div className="solution-display">Solution: {solution}</div>}
+        {solution &&<div className="solution-display">{solution}</div>}
 
       </div>
     </div>
