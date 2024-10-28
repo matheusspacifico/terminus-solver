@@ -6,8 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #f0f2f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,16 +14,16 @@ body {
 }
 
 .app {
-  background-color: #1e1e1e;
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   width: 90%;
   max-width: 800px;
 }
 
 h1, h2 {
-  color: #e0e0e0;
+  color: #333;
   text-align: center;
 }
 
@@ -62,15 +61,15 @@ h1, h2 {
 .image.selected {
   transform: scale(1.1);
   box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5);
-  border: 2px solid #90caf9;
+  border: 2px solid #007bff;
 }
 
 .solve-button {
   padding: 10px 20px;
   margin-top: 15px;
   font-size: 16px;
-  color: #121212;
-  background-color: #90caf9;
+  color: #fff;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -78,17 +77,17 @@ h1, h2 {
 }
 
 .solve-button:hover {
-  background-color: #64b5f6;
+  background-color: #0056b3;
 }
 
 .solution-display {
   margin-top: 20px;
   padding: 10px;
-  color: #66bb6a;
+  color: #28a745;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
-  border: 1px solid #66bb6a;
+  border: 1px solid #28a745;
   border-radius: 8px;
-  background-color: #1b5e20;
+  background-color: #e6f4ea;
 }
